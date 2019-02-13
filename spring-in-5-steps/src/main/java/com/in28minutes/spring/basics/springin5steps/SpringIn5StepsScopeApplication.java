@@ -15,6 +15,7 @@ public class SpringIn5StepsScopeApplication {
 
 	public static void main(String[] args) {
 
+		//Comentario teste
 		ApplicationContext applicationContext = SpringApplication.run(SpringIn5StepsScopeApplication.class, args);
 
 		PersonDAO personDao = applicationContext.getBean(PersonDAO.class);

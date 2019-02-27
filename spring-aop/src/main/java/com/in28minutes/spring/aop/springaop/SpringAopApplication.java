@@ -21,6 +21,7 @@ public class SpringAopApplication implements CommandLineRunner{
 	@Autowired
 	private Business2 business2;
 	
+	//Teste
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAopApplication.class, args);
 	}
